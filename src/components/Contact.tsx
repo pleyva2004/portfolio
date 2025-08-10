@@ -40,16 +40,16 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-semibold text-white mb-6">Connect With Me</h3>
               <div className="space-y-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/pleyva2004" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors group"
+                  className="flex items-c nter text-gray-300 hover:text-white transition-colors group"
                 >
                   <Github size={20} className="mr-3" />
                   <span>GitHub</span>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/pablo-leyva" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-300 hover:text-white transition-colors group"
@@ -76,11 +76,11 @@ const Contact: React.FC = () => {
                   <span>YouTube</span>
                 </a>
                 <a 
-                  href="mailto:your@email.com"
+                  href="mailto:pleyva2004@gmail.com"
                   className="flex items-center text-gray-300 hover:text-white transition-colors group"
                 >
                   <Mail size={20} className="mr-3" />
-                  <span>your@email.com</span>
+                  <span>pleyva2004@gmail.com</span>
                 </a>
               </div>
             </div>
@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
               <h3 className="text-2xl font-semibold text-white mb-6">Location</h3>
               <div className="flex items-center text-gray-300">
                 <MapPin size={20} className="mr-3" />
-                <span>New York City • Dallas</span>
+                <span>New York City • San Francisco</span>
               </div>
             </div>
           </div>

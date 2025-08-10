@@ -9,13 +9,13 @@ const Header: React.FC = () => {
           {/* Left side - Profile info */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/profile-photo.jpg" 
+              src="/pablo_leyva.jpg" 
               alt="Profile" 
               className="w-11 h-11 rounded-full border border-gray-600"
             />
             <div>
-              <h1 className="text-lg font-semibold text-white leading-tight">Your Name</h1>
-              <p className="text-sm text-gray-400 leading-tight">NYC • Dallas</p>
+              <h1 className="text-lg font-semibold text-white leading-tight">Pablo Leyva</h1>
+              <p className="text-sm text-gray-400 leading-tight">NYC • SFO</p>
             </div>
           </div>
 
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           {/* Right side - Social links */}
           <div className="flex items-center space-x-5">
             <a 
-              href="https://github.com" 
+              href="https://github.com/pleyva2004" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
               <Github size={18} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/pablo-leyva" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               <Linkedin size={18} />
             </a>
             <a 
-              href="mailto:your@email.com" 
+              href="mailto:pleyva2004@gmail.com" 
               className="text-gray-400 hover:text-white transition-colors duration-200"
             >
               <Mail size={18} />
